@@ -1,0 +1,25 @@
+# amazon-dash.yml
+# ---------------
+settings:
+  delay: 10
+devices:
+ 78:e1:03:a8:fc:1f: # Command exa
+    name: multi
+    user: pi
+    cmd: python /home/pi/multi.py
+ 18:74:2e:d6:32:dc:
+    name: goal
+    user: pi
+    cmd: python /home/pi/goal.py
+ 40:b4:cd:b1:e7:1f:
+    name: fuck it
+    user: pi
+    cmd: python /home/pi/fuck.py
+ 00:fc:8b:20:91:14:
+    name: lindsay
+    user: pi
+    cmd: python3 /home/pi/lindsay.py
+ fc:a6:67:f6:13:5c:
+    name: lofi hip hop n chill 
+    user: pi
+    cmd: chromium-browser https://www.youtube.com/watch?v=hHW1oY26kxQ
