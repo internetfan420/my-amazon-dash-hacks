@@ -71,7 +71,4 @@ message = random.choice(messages)
 
 
 
-yag = yagmail.SMTP('rasberrypi42069@gmail.com', 'sidekick1989')
-yag.send(to='trigger@applet.ifttt.com', subject = "#lindsay", contents = message)
 
-print("sent lindsay: " + message)
